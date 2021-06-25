@@ -66,7 +66,16 @@ Write a function "strivify" which accepts a string.
 It should add the word "Strive" in front of the given string, but if the given string already begins with "Strive", then it should just return the original string.
 */
 
-/* WRITE YOUR CODE HERE */
+function strivify(someString) {
+    console.log(someString.slice(0, 6))
+    if (someString.slice(0, 6).toLowerCase() == "Strive".toLowerCase()) {
+        return someString
+    } else {
+        return "Strive".concat(someString)
+    }
+}
+
+// console.log(strivify("strg"))
 
 /* EXERCISE 6
 Write a function "check3and7" which accepts a positive number and check if it is a multiple of 3 or a multiple of 7.
