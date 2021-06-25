@@ -96,7 +96,14 @@ function check3and7(positiveNumber) {
 Write a function "reverseString" to programmatically reverse a given string (es.: Strive => evirtS).
 */
 
-/* WRITE YOUR CODE HERE */
+function reverseString(string) {
+    var splitString = string.split("");
+    var reverseArray = splitString.reverse(); 
+    var joinArray = reverseArray.join(""); 
+    return joinArray;
+}
+ 
+// console.log(reverseString("Strive"));
 
 /* EXERCISE 8
 Write a function "upperFirst" to capitalize the first letter of each word of a given string passed as a parameter.
