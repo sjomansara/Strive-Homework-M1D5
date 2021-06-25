@@ -97,9 +97,9 @@ Write a function "reverseString" to programmatically reverse a given string (es.
 */
 
 function reverseString(string) {
-    var splitString = string.split("");
-    var reverseArray = splitString.reverse(); 
-    var joinArray = reverseArray.join(""); 
+    let splitString = string.split("");
+    let reverseArray = splitString.reverse(); 
+    let joinArray = reverseArray.join(""); 
     return joinArray;
 }
  
@@ -109,7 +109,9 @@ function reverseString(string) {
 Write a function "upperFirst" to capitalize the first letter of each word of a given string passed as a parameter.
 */
 
-/* WRITE YOUR CODE HERE */
+function upperFirst(sentence) {
+    
+}
 
 /* EXERCISE 9
 Write a function "cutString" to create a new string without the first and last character of a given string.
