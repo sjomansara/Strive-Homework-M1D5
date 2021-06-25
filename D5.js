@@ -97,10 +97,10 @@ Write a function "reverseString" to programmatically reverse a given string (es.
 */
 
 function reverseString(string) {
-    let splitString = string.split("");
-    let reverseArray = splitString.reverse(); 
-    let joinArray = reverseArray.join(""); 
-    return joinArray;
+    let splitString = string.split("")
+    let reverseArray = splitString.reverse()
+    let joinArray = reverseArray.join("")
+    return joinArray
 }
  
 // console.log(reverseString("Strive"));
@@ -110,7 +110,7 @@ Write a function "upperFirst" to capitalize the first letter of each word of a g
 */
 
 function upperFirst(sentence) {
-    
+    let splitString = sentence.split(" ")
 }
 
 /* EXERCISE 9
