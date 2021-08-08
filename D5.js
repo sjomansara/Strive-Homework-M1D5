@@ -137,6 +137,16 @@ function cutString(whateverString) {
 Write a function "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
 */
 
+function giveMeRandom(n) {
+    const myArray = []
+    for (let i = 0; i <= n; i++) {
+      myArray.push(Math.floor(Math.random() * 10))
+    }
+    return myArray
+  }
+  
+  // console.log(giveMeRandom(3))
+
 /* WRITE YOUR CODE HERE */
 
 /* WHEN YOU ARE FINISHED
